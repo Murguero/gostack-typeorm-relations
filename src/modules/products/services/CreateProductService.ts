@@ -32,19 +32,6 @@ class CreateProductService {
     });
 
     return product;
-    // const checkProduct = await this.productsRepository.findByName(name);
-
-    // if (checkProduct) {
-    //   throw new AppError('Product already exists');
-    // }
-
-    // const product = await this.productsRepository.create({
-    //   name,
-    //   price,
-    //   quantity,
-    // });
-
-    // return product;
   }
 }
 
